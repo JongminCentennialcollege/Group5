@@ -1,12 +1,12 @@
 import React from "react";
-import Navigation from "./components/navigation/Navigation";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/home/Home";
-import About from "./components/about/About";
-import FoodBanks from "./components/foodbanks/FoodBanks";
-import Partners from "./components/partners/Partners";
-import Contact from "./components/contact/Contact";
-import Donate from "./components/donate/Donate";
+import Navigation from "./components/navigation/Navigation";
+import Home from "./components/pages/Home";
+import About from "./components/pages/About";
+import FoodBanks from "./components/pages/Foodbanks";
+import Partners from "./components/pages/Partner";
+import Contact from "./components/pages/Contact";
+import Donate from "./components/pages/Donate";
 
 function App() {
   return (
