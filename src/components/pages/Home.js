@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 
-// Import the global CSS file (adjust the path as needed)
-import '../../App.css';
+// css for home page not for the whole app
+import './Home.css';
 
 function Home() {
   useEffect(() => {
