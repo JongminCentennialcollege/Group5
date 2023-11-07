@@ -1,15 +1,15 @@
-.App {
+.Home {
     text-align: center;
   }
   
-  .App-logo {
+  .Home-logo {
     height: 40vmin;
     pointer-events: none;
   }
   
-  .App {
+  .Home {
     text-align: center;
-    background-image: url('./assets/image_a.jpeg'); /* Adjust the path as needed */
+    background-image: url('../../assets/images/image_a.jpg'); /* Adjust the path as needed */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
