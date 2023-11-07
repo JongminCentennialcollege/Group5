@@ -10,6 +10,7 @@ function Home() {
     gsap.from('.intro', { opacity: 0, y: -50, duration: 1, delay: 0.5 });
   }, []);
 
+  // Give me your intagram id :)
   return (
     <div className="App">
       <header className="App-header">
