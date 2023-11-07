@@ -7,6 +7,8 @@ import FoodBanks from "./components/pages/Foodbanks";
 import Partners from "./components/pages/Partner";
 import Contact from "./components/pages/Contact";
 import Donate from "./components/pages/Donate";
+import './App.css';
+
 
 function App() {
   return (
