@@ -39,9 +39,9 @@ nav {
     font-weight: 400;
 }
 
-.active {
+/* .active {
     color: #263734;
-}
+} */
 
 .nav__links > a {
     color: rgba(38, 55, 52, 0.80);

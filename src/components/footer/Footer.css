@@ -1,0 +1,121 @@
+.footer {
+    background: #263734;
+    box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 61px;
+}
+
+.footer__information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 80px;
+
+}
+
+.about__info>h1 {
+    color: #F4F6F0;
+
+    text-align: center;
+    font-family: Prata;
+    font-size: 36.675px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about__info>p {
+    color: rgba(244, 246, 240, 0.80);
+    font-family: Switzer;
+    font-size: 20.125px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about__socials {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.about__socials>s {
+    width: 18.472px;
+    height: 18.472px;
+    padding-right: 20px;
+}
+
+.s {
+    padding-right: 20px;
+}
+
+.information__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copyright {
+    text-align: center;
+    padding: 53px 0px 24px 0px;
+}
+
+.links__who-are {
+    color: #F4F6F0;
+    text-align: right;
+    font-family: Switzer;
+    font-size: 20.125px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-right: 65px;
+}
+
+.links__who-are > h1 {
+    padding-bottom: 18px;
+}
+
+.links__others {
+    color: #F4F6F0;
+    text-align: right;
+    font-family: Switzer;
+    font-size: 20.125px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.links__others > h1 {
+    padding-bottom: 18px;
+}
+
+.who-are__links {
+    text-align: right;
+}
+
+.who-are__links>li>a {
+    color: rgba(244, 246, 240, 0.80);
+    text-decoration: none;
+    text-align: right;
+    font-family: Switzer;
+    font-size: 20.125px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__copyright>p {
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: Switzer;
+    font-size: 20.125px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
