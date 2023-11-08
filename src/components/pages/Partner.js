@@ -19,8 +19,6 @@ function PartnersPage() {
         <img src={topLeftImage} alt="Top Left" className="top-left-image" />
       </div>
       <div className="partner-div" style={{ backgroundColor: '#ff8352' }}>
-        <p>Daily Bread </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.</p>        <img src={bottomLeftImage1} alt="Bottom Left 1" className="bottom-left-image" />
         <img src={bottomLeftImage2} alt="Bottom Left 2" className="bottom-left-image" />
         <img src={bottomLeftImage3} alt="Bottom Left 3" className="bottom-left-image" />
         <img src={topRightImage} alt="Top Right" className="top-right-image" />
