@@ -1,0 +1,109 @@
+.partner-div:nth-child(1) {
+    background-color: #FF5733;
+    width: 1280px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+  }
+
+  p {
+    color: #F9F5E8;
+    font-family: Switzer;
+    font-size: 68.233px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.99;
+  }
+  p {
+    color: #FFF;
+    font-family: Switzer;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    flex-shrink: 0;
+  }
+  
+  p {
+    color: #FFF;
+    font-family: Switzer;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    flex-shrink: 0;
+  }
+  
+  p:first-child {
+    font-size: 51.477px;
+    height: 54.63px;
+  }
+  
+  p:nth-child(2) {
+    font-size: 26.781px;
+    height: 123px;
+    width: 553px;
+  }
+  
+  
+  
+  .partner-div:nth-child(2) {
+    background-color: #5733FF;
+  width: 1280px;
+  height: 791px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  }
+  
+  .partner-div:nth-child(3) {
+    background-color: #5733FF;
+  width: 1280px;
+  height: 691px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  }
+  
+
+  
+  
+ /* CSS for the images in the second and third divs */
+.partner-div:nth-child(2) img,
+.partner-div:nth-child(3) img {
+  max-width: 406px;
+  height: 271px;
+  flex-shrink: 0;
+  align-self: flex-end; /* This positions the images at the bottom of the div */
+}
+
+  
+.partner-div:nth-child(1) .top-right-image {
+    width: 171px;
+    height: 152.913px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    align-self: flex-start; /* Align to the top */
+    stroke-width: 12.332px;
+    stroke: #FDD65B;
+  }
+  
+  
+  .partner-div:nth-child(2) .top-right-image,
+  .partner-div:nth-child(3) .top-right-image {
+    width: 135.556px;
+    height: 135.556px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    position: absolute;
+    top: 23px; /* Adjust the top position as needed */
+    right: 35px; /* Adjust the right position as needed */
+  }
