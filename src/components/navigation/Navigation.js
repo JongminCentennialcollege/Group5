@@ -2,7 +2,7 @@ import React from "react";
 import "./Navigation.css";
 import { Icon } from '@iconify/react';
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
 
@@ -23,22 +23,27 @@ const Navigation = () => {
                 <div className={click ? "navbar__navbar" : "navbar__navbar-mobile"}>
                     <ul className={click ? "nav__items-flex" : "nav__items"}>
                         <li className="nav__links">
-                            <Link to="/">Home</Link>
+                            <NavLink to="/">Home</NavLink>
                         </li>
+
                         <li className="nav__links">
-                            <Link to="/about" activeClassName="active">About Us</Link>
+                            <NavLink to="/partners" activeClassName="active">Partners</NavLink>
                         </li>
+
                         <li className="nav__links">
-                            <Link to="/foodbanks" activeClassName="active">Food Banks</Link>
+                            <NavLink to="/foodbanks" activeClassName="active">Food Banks</NavLink>
                         </li>
+                        
                         <li className="nav__links">
-                            <Link to="/partners" activeClassName="active">Partners</Link>
+                            <NavLink to="/donate" activeClassName="active">Donate</NavLink>
                         </li>
+
                         <li className="nav__links">
-                            <Link to="/contact" activeClassName="active">Contact Us</Link>
-                        </li>
-                        <li className="nav__links">
-                            <Link to="/donate" activeClassName="active">Donate</Link>
+                            <NavLink to="/register" activeClassName="active">
+                                <div>
+                                    <h1>R</h1>
+                                </div>
+                            </NavLink>
                         </li>
                     </ul>
                 </div>
