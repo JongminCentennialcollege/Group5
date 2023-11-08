@@ -12,8 +12,8 @@ function Home() {
 
   // Give me your intagram id :)
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="Home">
+      <header className="Home-header">
         <h1 className="intro">Find Nearest Foodbank Locations</h1>
         <p>Join us in the fight against hunger.</p>
       </header>

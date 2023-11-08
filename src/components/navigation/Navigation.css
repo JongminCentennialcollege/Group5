@@ -1,5 +1,6 @@
-.navbar {
+.Navbar-flex {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -15,9 +16,31 @@
     display: none;
 }
 
+.navbar-none {
+    display: none;
+}
+
 .navbar__nav-mobile {
     font-size: 20px;
     display: block;
+}
+
+.navbar__navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar__navbar-mobile {
+    display: none;
+}
+
+.second-display-none {
+    display: none;
+}
+
+.second-display-flex {
+    display: flex;
+    flex-direction: row;
 }
 
 @media (min-width: 600px) {
@@ -27,6 +50,10 @@
 
     .navbar__nav-mobile {
         display: none;
+    }
+
+    .navbar__navbar-mobile {
+        display: flex;
     }
   }
   
