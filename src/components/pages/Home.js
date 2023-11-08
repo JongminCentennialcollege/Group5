@@ -1,6 +1,14 @@
-import React, { useEffect } from 'react';
-import { gsap } from 'gsap';
+import React from "react";
+const Home = () => {
+    return (
+        <div>
+            <h1>Home</h1>
+            <p>This is the home page.</p>
+        </div>
+    );
+};
 
+<<<<<<< HEAD
 // css for home page not for the whole app
 import './Home.css';
 
@@ -22,3 +30,6 @@ function Home() {
 }
 
 export default Home;
+=======
+export default Home;
+>>>>>>> 111eebd1118ead48e6db050cfd646871dc40e41c
