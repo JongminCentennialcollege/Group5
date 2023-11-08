@@ -7,6 +7,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 23px 61px;
 }
 
 .navbar__nav-mobile {
@@ -38,20 +39,32 @@ nav {
     font-weight: 400;
 }
 
-.nav__links {
-    color: rgba(38, 55, 52, 0.80);
+.active {
+    color: #263734;
 }
 
 .nav__links > a {
+    color: rgba(38, 55, 52, 0.80);
+    font-family: Switzer;
     text-decoration: none;
     font-size: 24.116px;
     font-weight: 400;
-    margin: 0 10px;
+    margin: 0 20px;
     text-align: center;
 }
 
-.active {
+.nav__links-donate {
     color: #263734;
+    border-radius: 15px;
+    background: #FDD65B;
+    padding: 10px 20px;
+    justify-content: center;
+    text-align: center;
+    font-family: Switzer;
+    font-size: 24.116px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 35px;
 }
 
 @media (max-width: 768px) {
