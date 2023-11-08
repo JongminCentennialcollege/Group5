@@ -7,6 +7,7 @@ import FoodBanks from "./components/pages/Foodbanks";
 import Partners from "./components/pages/Partner";
 import Contact from "./components/pages/Contact";
 import Donate from "./components/pages/Donate";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/donate" element={<Donate />} />
       </Routes>
+      <Footer />
     </Router>
     </div>
   );
